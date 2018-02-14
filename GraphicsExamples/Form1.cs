@@ -40,7 +40,7 @@ namespace GraphicsExamples
 
             drawPen = new Pen(Color.Blue);
             formGraphics.DrawArc(drawPen, 150, 20, 50, 50, 30, 300);
-            formGraphics.DrawPie(drawPen, 150, 100, 50, 50, 30, 60);
+            formGraphics.DrawPie(drawPen, 150, 100, 50, 50, 30, 60); /* this also works */
 
             formGraphics.DrawString("Hello", drawFont, textBrush, 200, 40);
         }
